@@ -1,0 +1,14 @@
+{
+  "id": "req_001",
+  "method": "POST",
+  "url": "/v1/charges",
+  "headers": {
+    "Idempotency-Key": "abc-123"
+  },
+  "body": {
+    "amount": 2000,
+    "currency": "usd",
+    "source": "tok_visa"
+  },
+  "expected_status": 200
+}
