@@ -1,0 +1,30 @@
+{
+  "stations": [
+    {
+      "id": "st_1",
+      "name": "Main St",
+      "lat": 49.2827,
+      "lon": -123.1207,
+      "bikes_available": 12
+    },
+    {
+      "id": "st_2",
+      "name": "Broadway",
+      "lat": 49.2635,
+      "lon": -123.1386,
+      "bikes_available": 3
+    }
+  ],
+  "trips": [
+    {
+      "trip_id": "t_1",
+      "start_station_id": "st_1",
+      "end_station_id": "st_2"
+    },
+    {
+      "trip_id": "t_2",
+      "start_station_id": "st_missing",
+      "end_station_id": "st_2"
+    }
+  ]
+}

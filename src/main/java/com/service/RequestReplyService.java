@@ -30,7 +30,7 @@ public class RequestReplyService {
     public List<RequestResult> migrateRequests() {
 
         List<Request> requests = objectMapper.readValue(
-                new File("/Users/mayank/workspace/Small_Implementations/src/main/java/com/resources/requests.json"),
+                new File("/Users/mayank/workspace/Small_Implementations/src/main/java/com/resources/bikemap.json"),
                 new TypeReference<List<Request>>() {
                 }
         );
